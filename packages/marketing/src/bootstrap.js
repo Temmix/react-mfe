@@ -8,7 +8,7 @@ const mount = (element) => {
 
 //for internal development purpose
 if (process.env.NODE_ENV === 'development') {
-  const devElement = document.querySelector('#marketing-dev-root');
+  const devElement = document.querySelector('#marketing-dev-rootx');
   if (devElement) mount(devElement);
 }
 
